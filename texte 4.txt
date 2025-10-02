@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blog - EcobrunoConseil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>EcobrunoConseil</h1>
+    <p>Études et conseils gratuits afin de réduire votre facture énergétique</p>
+  </header>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Blog</h2>
+    <article>
+      <h3>Astuces pour réduire votre consommation d’énergie</h3>
+      <p>Découvrez des conseils pratiques pour diminuer vos factures et consommer de manière responsable.</p>
+    </article>
+    <article>
+      <h3>Guide de rénovation énergétique</h3>
+      <p>Nos recommandations pour améliorer l’efficacité énergétique de votre logement.</p>
+    </article>
+  </main>
+
+  <footer>
+    © <span id="year"></span> EcobrunoConseil — Ensemble vers une consommation plus durable 🌍
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

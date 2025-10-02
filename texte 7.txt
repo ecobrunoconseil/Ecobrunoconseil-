@@ -1,0 +1,32 @@
+# 🌍 EcobrunoConseil
+
+**Études et conseils gratuits afin de réduire votre facture énergétique**
+
+Ce dépôt contient le site officiel **EcobrunoConseil**, mis en ligne gratuitement grâce à **GitHub Pages**.
+
+---
+
+## 🚀 Mise en ligne
+
+Le site multi-pages est disponible à l’adresse :  
+👉 https://tonpseudo.github.io
+
+---
+
+## 📂 Contenu
+
+- `index.html` → Page d’accueil  
+- `services.html` → Page des services  
+- `blog.html` → Page blog  
+- `contact.html` → Page contact  
+- `style.css` → Feuille de style globale  
+- `images/` → Dossier pour vos images  
+
+---
+
+## ⚡ Mise à jour du site
+
+```bash
+git add .
+git commit -m "Mise à jour du site"
+git push origin main
