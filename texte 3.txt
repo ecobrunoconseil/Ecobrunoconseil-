@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Services - EcobrunoConseil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>EcobrunoConseil</h1>
+    <p>Études et conseils gratuits afin de réduire votre facture énergétique</p>
+  </header>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Nos Services</h2>
+    <p>Découvrez nos études énergétiques personnalisées et nos conseils pour réduire vos factures.</p>
+    <ul>
+      <li>Audit énergétique gratuit</li>
+      <li>Optimisation de consommation</li>
+      <li>Accompagnement à la rénovation</li>
+    </ul>
+  </main>
+
+  <footer>
+    © <span id="year"></span> EcobrunoConseil — Ensemble vers une consommation plus durable 🌍
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accueil - EcobrunoConseil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>EcobrunoConseil</h1>
+    <p>Études et conseils gratuits afin de réduire votre facture énergétique</p>
+  </header>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <h2>Bienvenue</h2>
+      <p>Nous vous accompagnons pour économiser de l’énergie et alléger vos dépenses. 
+      Découvrez nos conseils, études et solutions durables.</p>
+      <p><a class="button" href="contact.html">Contactez-nous</a></p>
+
+      <div class="grid">
+        <div>
+          <h3>À propos</h3>
+          <p>EcobrunoConseil est spécialisé dans l’optimisation énergétique pour les particuliers et professionnels.</p>
+        </div>
+        <div>
+          <h3>Services</h3>
+          <p>Études de consommation, conseils personnalisés, et accompagnement dans vos projets de rénovation énergétique.</p>
+        </div>
+        <div>
+          <h3>Blog</h3>
+          <p>Retrouvez des astuces et des guides pratiques pour réduire vos coûts et adopter une consommation plus durable.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> EcobrunoConseil — Ensemble vers une consommation plus durable 🌍
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
